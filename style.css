@@ -670,3 +670,33 @@ a:focus-visible {
         transform: none;
     }
 }
+
+/* Featured games — concept B */
+.games-section{background:#0b1019;padding-top:88px;min-height:0}
+.games-glow{display:none}
+.section-heading{max-width:760px;margin:0 0 40px;text-align:left}
+.section-heading h1{font-size:clamp(2.2rem,4vw,3.3rem)}
+.section-intro{margin:20px 0 0;max-width:650px}
+.section-kicker{color:#b5ecd6}
+.games-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.game-card{min-height:0;flex-direction:row;gap:25px;padding:28px;border-radius:22px;background:#141c26;box-shadow:none}
+.game-card::before{display:none}
+.game-icon-link{flex:0 0 90px;width:90px;height:90px;margin:0;border-radius:20px}
+.game-card h2{font-size:1.5rem}
+.game-description{font-size:.94rem;margin:15px 0 24px}
+.game-tags{margin-bottom:12px;min-height:0}
+.game-tags span{color:#c3dfd4;background:#b5ecd609;border-color:#b5ecd625}
+.game-card:first-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0;background:#17242b;min-height:370px}
+.game-card:first-child .game-icon-link{display:grid;place-items:center;width:100%;height:100%;min-height:370px;background:#dac7e8;border-radius:0}
+.game-card:first-child .game-icon{width:250px;height:250px;border-radius:40px;transform:rotate(-7deg);box-shadow:0 22px 40px #0003}
+.game-card:first-child .game-card-content{padding:42px}
+.game-card:first-child h2{font-size:clamp(2rem,3vw,2.7rem)}
+.game-card:first-child .game-link{padding:14px 20px;background:#beefd6;color:#12261c;border-radius:9px;gap:22px}
+.game-link span:last-child{color:#9edfc3}
+.game-card:first-child .game-link span:last-child{color:#12261c}
+.store-cta{border:0;border-top:1px solid #ffffff18;border-radius:0;background:transparent;padding:28px 0;justify-content:space-between;margin-top:30px}
+.store-cta a{background:transparent;color:#b5ecd6;padding:0}
+.store-icon-bottom{bottom:100px}
+.scroll-games{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:2;display:flex;align-items:center;gap:18px;color:#fff;font-size:.8rem;white-space:nowrap;text-decoration:none;text-shadow:0 2px 8px #000}
+.scroll-games span:last-child{font-size:24px}
+@media(max-width:720px){.games-section{padding:68px 18px 40px}.games-grid{grid-template-columns:1fr}.game-card,.game-card:last-child{padding:22px;gap:18px;min-height:0}.game-icon-link{flex-basis:72px;width:72px;height:72px;border-radius:16px}.game-card h2{font-size:1.3rem}.game-card:first-child{display:flex;flex-direction:column;grid-column:auto}.game-card:first-child .game-icon-link{height:250px;min-height:250px}.game-card:first-child .game-icon{width:185px;height:185px;border-radius:32px}.game-card:first-child .game-card-content{padding:26px}.store-cta{align-items:flex-start;text-align:left}.store-cta a{justify-content:flex-start}.game-tags{gap:5px}.game-tags span{font-size:.62rem;padding:5px 7px}}
