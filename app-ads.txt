@@ -1,5 +1,6 @@
 google.com, pub-5112554564927708, DIRECT, f08c47fec0942fa0
 
+#UNITY
 netmarvel.com, 1011828, RESELLER, ca3509163a633862
 onlinemediasolutions.com, 23120, RESELLER, b3868b187e4b6402
 spinx.biz, 1373698903, RESELLER, 9f2711e9aaa9f992
@@ -123,6 +124,7 @@ brightmountainmedia.com, 2686958, RESELLER
 copper6.com, 766114, RESELLER
 e-planning.net, 6a7f877127485fdb, RESELLER, c1ba615865ed87b2
 
+#PANGLE
 OwnerDomain=sunflare.co.kr
 pangleglobal.com, 5042944, DIRECT
 
@@ -183,6 +185,7 @@ rubiconproject.com,18364,RESELLER,0bfd66d529a55807
 #indexexchange
 indexexchange.com,216408,RESELLER,50b1c356f2c5c8fc
 
+#MINTEGRAL
 mintegral.com, 73549, DIRECT, 0aeed750c80d6423
 pokkt.com, 7139, RESELLER, c45702d9311e25fd
 appads.in, 107139, RESELLER
@@ -1091,6 +1094,7 @@ media.net, 8CAXEGFDP, RESELLER
 pubmatic.com, 166063, RESELLER, 5d62403b186f2ace
 rubiconproject.com,27987,RESELLER,0bfd66d529a55807
 
+#IRONSOURCE
 OWNERDOMAIN=sunflare.co.kr
 ironsrc.com, 687873, Direct
 
